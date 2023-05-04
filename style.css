@@ -1,0 +1,253 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar{
+    background-color:rgb(231, 228, 228);
+    width: 189px;
+    padding: 13px;
+    margin:0px;
+}
+/* .main{background-color: black;} */
+a{
+    color: black;
+}
+ .main{
+    /* background-color: aqua; */
+    width: 113vw;
+    height: 111vh;
+    font-family:cursive;
+    /* background-image: url("ha.jpg"); */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */ }
+
+.container{
+    display: flex;
+}
+.sidebar nav{
+    
+    width: 20vw;
+    height: 100vh;
+    margin: 15px;
+}
+
+.sidebar nav li{
+    font-size: 30px;
+    list-style: none;
+    padding-top: 22px;
+    padding-bottom: 27px;
+    padding-right: 0px;
+    padding-left: 0px;
+    /* margin: -24px; */
+
+}
+.intro{
+    /* margin: 0px;
+    font-size: 22px; */
+    /* background-color: rgb(86, 24, 148); */
+    /* padding-top: 38px;
+    padding-bottom: 38px;
+    padding-left: 28px;
+    padding-right: 22px; */
+    height: 395px;
+    margin-top: 124px;
+    margin-left: 40px;
+    margin-bottom: 300px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+/* .about{
+    margin:auto;
+    margin: 0px;
+    text-align: center;
+    font-size: 52px;
+    font-family: fangsong;
+    padding-top: 38px;
+    color: whitesmoke;
+    
+}  */
+.pic{
+    height: 45vh;
+    width: 23vw;
+    margin: 12px;
+    }
+.pic img{
+    height: 61vh;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.name{
+    font-size: 31px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.hello{
+    font-size: 57px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+   
+}
+.about{
+    font-size: 20px;
+}
+.aboutmore{
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 15px;
+}
+.buttons{
+    margin-top: 25px;
+}
+
+.buttons button{
+    padding: 12px 12px;
+    border-radius: 20px;
+     color: white;
+    background-color: rgb(124, 124, 227);
+     font-size: 15px;
+    font-weight: bold;
+    margin: 0px 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+   background-color: white;
+    color: rgb(124, 124, 227);
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+}
+.contactform{
+    padding-top: 120px;
+    padding: 41px;
+    margin: 25px;;
+}
+
+
+.contactform h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+   
+.contactform form div{
+    padding: 8px 0px;
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contactform form div input{
+   width: 35vw;
+   border-radius: 5px;
+   margin: 6px 0;
+   padding: 3px;
+    
+}
+#emailHelp{
+    font-size: 11px;
+    color: blue;
+    margin: -11px 1px;}
+
+    
+#form-check{
+    flex-direction: row;  
+} 
+#isclient{
+    width: 25px; 
+} 
+.btn-primary{
+    padding: 5px 19px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(124 178 227);
+    font-size: 16px;
+    font-weight: bold;
+    margin: -1px 3px;
+    cursor: pointer;
+    
+}
+ h1{
+    margin: 20px;
+    font-family:serif;
+}
+.blogitem{
+    margin: 14px;;
+}
+
+.blogitem h2 {
+    margin: 10px;
+    font-family:serif;
+    font-weight: 100;
+    
+}
+ p{
+    margin: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+
+}
+.btn-primary:hover{
+    background-color: white;
+     color: rgb(124, 124, 227);
+     box-shadow: 0 0 3px solid currentColor;
+}
+ h3{
+    margin:11px;
+
+}
+.sillcontainer{
+    margin: 17px;
+    font-size: 16px;
+    font-family: system-ui;
+}
+.skillitem{
+    margin: 4px;
+   
+  
+}
+.skill{
+   
+    height: 5vh;
+}
+.t1{
+    height: 2vh;
+    background-color: violet;
+    width: 40vw;
+    margin:2px;
+}
+.t2{
+    height: 2vh;
+    background-color: aqua;
+    width: 28vw;
+    margin:2px;
+}
+.t3{
+    height: 2vh;
+    margin:2px;
+    width:13vw;
+    background-color:tomato;
+}
+.t4{
+    height: 2vh;
+    width:12vw;
+    background-color:blue;
+    margin:2px;
+
+}
+.t5{
+    height: 2vh;
+    width:14vw;
+    background-color:teal;
+    margin:2px;
+
+}
+.myproject{
+    margin: 10px;
+}
